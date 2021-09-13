@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{BEF5D56D-6A48-24C3-8CCE-8428B3DD137B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BBTVBuildPostProcessor.cs">
+    <Files>
+      <File FileName="Assets/Editor/BBTVBuildPostProcessor.cs" Line="114" Column="47" />
+      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" Line="206" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="b75f6a59-20b5-4079-8415-38095939c92f" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3612d09f-a5a3-462e-a16c-71cf9a931650" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

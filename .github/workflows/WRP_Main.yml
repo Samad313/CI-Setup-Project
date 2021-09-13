@@ -1,0 +1,143 @@
+# .github/workflows/main.yml - Initial test push
+name: Unity-iOS,Unity-Android, CI [WRP]
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Android/iOS/Mac/All'
+        required: true
+        default: 'iOS'
+jobs:
+  buildForMacPlatform:
+    if: contains(github.event.inputs.mode, 'Mac')  || contains(github.event.inputs.mode, 'All')
+    name: Build for Mac
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        lfs: true
+    - uses: actions/cache@v1.1.0
+      with:
+        path: LostTwins2/Library
+        key: Library-Mac
+        
+    - uses: game-ci/unity-builder@v2
+      with:
+          allowDirtyBuild: true
+          unityVersion: 2020.3.13f1
+          targetPlatform: StandaloneOSX
+      env:
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+
+    - name: Zip build folder
+      run: zip -r MacBuild.zip build
+    - name: upload to dropbox
+      run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer sl.A3r2-TZHu282oDjI1_bljww1dRItG6Heony9o9EJVcaIPWBFw7RyKUyerPufTZz5tTiwESPI59vs0-4BzvoB53wOrS4yOaWOixz15SFYrSTSyqeKnQSqBLaoVQidxLpCLWAyAuw"     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/MacBuildCI/MacBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @MacBuild.zip
+
+    
+  buildForAndroidPlatform:
+    if: contains(github.event.inputs.mode, 'Android')  || contains(github.event.inputs.mode, 'All')
+    name: Build for Android
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: LostTwins2/Library
+          key: Library-Android
+      - uses: game-ci/unity-builder@v2
+        with:
+          allowDirtyBuild: true
+          unityVersion: 2020.3.13f1
+          targetPlatform: Android
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+    
+      - name: Zip build folder
+        run: zip -r AndroidBuild.zip build
+      - name: upload to dropbox
+        run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer sl.A3r2-TZHu282oDjI1_bljww1dRItG6Heony9o9EJVcaIPWBFw7RyKUyerPufTZz5tTiwESPI59vs0-4BzvoB53wOrS4yOaWOixz15SFYrSTSyqeKnQSqBLaoVQidxLpCLWAyAuw"     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/AndroidBuildCI/AndroidBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @AndroidBuild.zip
+
+
+
+  buildForiOSPlatform:
+    if: contains(github.event.inputs.mode, 'iOS')  || contains(github.event.inputs.mode, 'All')
+    name: Build for iOS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: LostTwins2/Library
+          key: Library-iOS
+      - uses: game-ci/unity-builder@v2
+        with:
+          allowDirtyBuild: true
+          unityVersion: 2019.4.9f1
+          targetPlatform: iOS
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+          
+      - uses: actions/upload-artifact@v2
+        with:
+          name: LostTwins2-iOS
+          path: build/iOS
+
+  releaseToAppStore:
+    if: contains(github.event.inputs.mode, 'iOS')  || contains(github.event.inputs.mode, 'All')
+    name: Release to the App Store
+    runs-on: macos-latest
+    needs: buildForiOSPlatform
+    env:
+      APPLE_CONNECT_EMAIL: ${{ secrets.APPLE_CONNECT_EMAIL }}
+      APPLE_DEVELOPER_EMAIL: ${{ secrets.APPLE_DEVELOPER_EMAIL }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+      APPLE_TEAM_NAME: ${{ secrets.APPLE_TEAM_NAME }}
+      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      MATCH_PERSONAL_ACCESS_TOKEN: ${{ secrets.MATCH_PERSONAL_ACCESS_TOKEN }}
+      MATCH_URL: ${{ secrets.MATCH_URL }}
+      APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
+      APPSTORE_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
+      APPSTORE_P8: ${{ secrets. APPSTORE_P8 }}
+      APPSTORE_P8_PATH: ${{ format('{0}/fastlane/p8.json', github.workspace) }}
+      IOS_APP_ID: com.wrp.losttwins2
+      IOS_BUILD_PATH: ${{ format('{0}/build/iOS', github.workspace) }}
+      PROJECT_NAME: losttwins2
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Download iOS Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: LostTwins2-iOS
+          path: build/iOS
+      - name: Make App Store p8 and Fix File Permissions
+        run: |
+          echo "$APPSTORE_P8" > $APPSTORE_P8_PATH
+          find $IOS_BUILD_PATH -type f -name "**.sh" -exec chmod +x {} \;
+      - name: Cache Fastlane Dependencies
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+      - name: Install Fastlane
+        run: bundle install
+      - name: Upload to TestFlight
+        uses: maierj/fastlane-action@v2.0.0
+        with:
+          lane: 'ios beta'
+      - name: Cleanup to avoid storage limit
+        if: always()
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: LostTwins2-iOS

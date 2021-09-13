@@ -1,0 +1,11 @@
+name: clean artifacts
+
+on:
+  [pull_request]
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cleanup
+        uses: glassechidna/artifact-cleaner@master
+        
