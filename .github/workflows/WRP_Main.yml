@@ -3,7 +3,7 @@ name: Unity-iOS,Unity-Android, CI [WRP]
 on:
   push:
     branches:
-      - main
+      - Features/CISetup
   workflow_dispatch:
     inputs:
       mode:
@@ -22,13 +22,13 @@ jobs:
         lfs: true
     - uses: actions/cache@v1.1.0
       with:
-        path: LostTwins2/Library
-        key: Library-Mac
+        path: Library
+        key: Library 
         
     - uses: game-ci/unity-builder@v2
       with:
           allowDirtyBuild: true
-          unityVersion: 2020.3.13f1
+          unityVersion: 2019.4.26f1
           targetPlatform: StandaloneOSX
       env:
         UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -36,9 +36,9 @@ jobs:
         UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
 
     - name: Zip build folder
-      run: zip -r MacBuild.zip build
+      run: zip -r build.zip build
     - name: upload to dropbox
-      run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer sl.A3r2-TZHu282oDjI1_bljww1dRItG6Heony9o9EJVcaIPWBFw7RyKUyerPufTZz5tTiwESPI59vs0-4BzvoB53wOrS4yOaWOixz15SFYrSTSyqeKnQSqBLaoVQidxLpCLWAyAuw"     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/MacBuildCI/MacBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @MacBuild.zip
+      run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer wzzVXFwU8BoAAAAAAAAAAZ4PVcfq2N_OoTz9PwoZPQt54tFj-NjG-4mZlidyjYPo"     --header "Dropbox-API-Arg:{\"path\":\"/RaceRoyale/build.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @build.zip
 
     
   buildForAndroidPlatform:
@@ -49,12 +49,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
-          path: LostTwins2/Library
-          key: Library-Android
+          path: Library
+          key: Library
       - uses: game-ci/unity-builder@v2
         with:
           allowDirtyBuild: true
-          unityVersion: 2020.3.13f1
+          unityVersion: 2019.4.26f1
           targetPlatform: Android
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -64,8 +64,7 @@ jobs:
       - name: Zip build folder
         run: zip -r AndroidBuild.zip build
       - name: upload to dropbox
-        run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer sl.A3r2-TZHu282oDjI1_bljww1dRItG6Heony9o9EJVcaIPWBFw7RyKUyerPufTZz5tTiwESPI59vs0-4BzvoB53wOrS4yOaWOixz15SFYrSTSyqeKnQSqBLaoVQidxLpCLWAyAuw"     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/AndroidBuildCI/AndroidBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @AndroidBuild.zip
-
+        run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer wzzVXFwU8BoAAAAAAAAAAZ4PVcfq2N_OoTz9PwoZPQt54tFj-NjG-4mZlidyjYPo"     --header "Dropbox-API-Arg:{\"path\":\"/RaceRoyale/build.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @AndroidBuild.zip
 
 
   buildForiOSPlatform:
@@ -76,12 +75,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
-          path: LostTwins2/Library
+          path: Library
           key: Library-iOS
       - uses: game-ci/unity-builder@v2
         with:
           allowDirtyBuild: true
-          unityVersion: 2019.4.9f1
+          unityVersion: 2019.4.26f1
           targetPlatform: iOS
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -90,7 +89,7 @@ jobs:
           
       - uses: actions/upload-artifact@v2
         with:
-          name: LostTwins2-iOS
+          name: RaceRoyale-iOS
           path: build/iOS
 
   releaseToAppStore:
@@ -108,18 +107,18 @@ jobs:
       MATCH_URL: ${{ secrets.MATCH_URL }}
       APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
       APPSTORE_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
-      APPSTORE_P8: ${{ secrets.APPSTORE_P8 }}
+      APPSTORE_P8: ${{ secrets. APPSTORE_P8 }}
       APPSTORE_P8_PATH: ${{ format('{0}/fastlane/p8.json', github.workspace) }}
-      IOS_APP_ID: com.wrp.losttwins2
+      IOS_APP_ID: com.werplay.raceroyale
       IOS_BUILD_PATH: ${{ format('{0}/build/iOS', github.workspace) }}
-      PROJECT_NAME: losttwins2
+      PROJECT_NAME: raceroyale
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Download iOS Artifact
         uses: actions/download-artifact@v2
         with:
-          name: LostTwins2-iOS
+          name: RaceRoyale-iOS
           path: build/iOS
       - name: Make App Store p8 and Fix File Permissions
         run: |
@@ -140,4 +139,4 @@ jobs:
         if: always()
         uses: geekyeggo/delete-artifact@v1
         with:
-          name: LostTwins2-iOS
+          name: RaceRoyale-iOS
