@@ -28,7 +28,7 @@ jobs:
     - uses: game-ci/unity-builder@v2
       with:
           allowDirtyBuild: true
-          unityVersion: 2019.4.26f1
+          unityVersion: 2020.3.13f1
           targetPlatform: StandaloneOSX
       env:
         UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -54,7 +54,7 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           allowDirtyBuild: true
-          unityVersion: 2019.4.26f1
+          unityVersion: 2020.3.13f1
           targetPlatform: Android
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -80,7 +80,7 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           allowDirtyBuild: true
-          unityVersion: 2019.4.26f1
+          unityVersion: 2020.3.13f1
           targetPlatform: iOS
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
