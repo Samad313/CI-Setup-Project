@@ -11,10 +11,10 @@ public static class BuildPostProcessConstants
         public static bool removeRequiredCapabilities = true;
         public static bool enableCalendarUsageDescription = true;
         public static bool enableAppTrackingTransparency = true;
-        public static bool addAdmobKey = true;
-        public static bool addAssociatedDomain = true;
-        public static bool addFrameworks = true;
-        public static bool addSKAdnetworks = true;
+        public static bool addAdmobKey = false;
+        public static bool addAssociatedDomain = false;
+        public static bool addFrameworks = false;
+        public static bool addSKAdnetworks = false;
         public static bool disableBitcode = true;
     }
     private static class SKNetworkIDsWithName

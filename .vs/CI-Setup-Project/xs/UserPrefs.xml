@@ -2,10 +2,23 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BBTVBuildPostProcessor.cs">
     <Files>
       <File FileName="Assets/Editor/BBTVBuildPostProcessor.cs" Line="114" Column="47" />
-      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" Line="206" Column="38" />
+      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CI-Setup-Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
+                <Node name="BBTVBuildPostProcessor.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="b75f6a59-20b5-4079-8415-38095939c92f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="531cb297-e872-4986-8eb8-7a2e7365ef9c" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3612d09f-a5a3-462e-a16c-71cf9a931650" />
