@@ -29,7 +29,6 @@ platform :ios do
 
   desc "Submit a new Beta Build to Apple TestFlight"
   lane :beta do
-    xcversion(version: "12.5.1")
     build
     api_key = app_store_connect_api_key(
       key_id: "#{ENV['APPSTORE_KEY_ID']}",
@@ -43,6 +42,7 @@ platform :ios do
 
   desc "Create .ipa"
   lane :build do
+#    cocoapods( clean_install: true,podfile: "#{ENV['IOS_BUILD_PATH']}/iOS/")
     update_code_signing_settings(use_automatic_signing: false, path: "#{ENV['IOS_BUILD_PATH']}/iOS/Unity-iPhone.xcodeproj")
     certificates
     update_project_provisioning(
@@ -69,7 +69,6 @@ platform :ios do
       }
     )
   end
-  
   desc "Synchronize certificates"
   lane :certificates do
     cleanup_keychain
@@ -100,3 +99,4 @@ platform :ios do
     end
   end
 end
+
