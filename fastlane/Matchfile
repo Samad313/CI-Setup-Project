@@ -1,10 +1,7 @@
 git_url(ENV["MATCH_URL"])
 git_basic_authorization(Base64.strict_encode64("#{ENV['APPLE_CONNECT_EMAIL']}:#{ENV['MATCH_PERSONAL_ACCESS_TOKEN']}"))
 
-type "appstore" # Either development, appstore etc.
-app_identifier 'com.wrp.losttwins2'
-username "samad@werplay.com" #This will be the git username
-shallow_clone true
-force_for_new_devices true
+type("appstore")
 
-ENV["MATCH_PASSWORD"] = "werplayru55" #Password for the .p12 files saved in git repo.
+app_identifier(ENV["IOS_APP_ID"])
+username(ENV["APPLE_CONNECT_EMAIL"])
