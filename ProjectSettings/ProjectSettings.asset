@@ -54,7 +54,7 @@ PlayerSettings:
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
-  iosUseCustomAppBackgroundBehavior: 1
+  iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 0
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -208,8 +208,7 @@ PlayerSettings:
   iOSLaunchScreenCustomStoryboardPath: 
   iOSLaunchScreeniPadCustomStoryboardPath: 
   iOSDeviceRequirements: []
-  iOSURLSchemes:
-  - applinks:bbtvdobre.page.link
+  iOSURLSchemes: []
   iOSBackgroundModes: 256
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
