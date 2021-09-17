@@ -75,7 +75,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
-          path: LostTwins2/Library
+          path: Library
           key: Library-iOS
       - uses: game-ci/unity-builder@v2
         with:
@@ -109,9 +109,9 @@ jobs:
       APPSTORE_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
       APPSTORE_P8: ${{ secrets. APPSTORE_P8 }}
       APPSTORE_P8_PATH: ${{ format('{0}/fastlane/p8.json', github.workspace) }}
-      IOS_APP_ID: com.werplay.raceroyale
+      IOS_APP_ID: com.wrp.losttwins2
       IOS_BUILD_PATH: ${{ format('{0}/build/iOS', github.workspace) }}
-      PROJECT_NAME: raceroyale
+      PROJECT_NAME: losttwins2
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
