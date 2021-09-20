@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{BEF5D56D-6A48-24C3-8CCE-8428B3DD137B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BBTVBuildPostProcessor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BuildPostProcessConstants.cs">
     <Files>
       <File FileName="Assets/Editor/BBTVBuildPostProcessor.cs" Line="114" Column="47" />
-      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" />
+      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" Line="14" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="CI-Setup-Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Editor" expanded="True">
-                <Node name="BBTVBuildPostProcessor.cs" selected="True" />
+                <Node name="BuildPostProcessConstants.cs" selected="True" />
               </Node>
             </Node>
           </Node>
