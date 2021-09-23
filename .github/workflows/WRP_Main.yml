@@ -79,11 +79,12 @@ jobs:
           key: Library-iOS
       - uses: game-ci/unity-builder@v2
         with:
+          versioning: Tag
           allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
           projectPath: LostTwins2
-          versioning: Tag
+          
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
