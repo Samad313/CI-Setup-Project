@@ -80,7 +80,6 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           version: 0.0.27
-          versionCode: 3
           allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
