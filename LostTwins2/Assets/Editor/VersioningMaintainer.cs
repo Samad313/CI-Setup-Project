@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using UnityEditor;
 
 
-public static class VersioningMaintainer 
+public class VersioningMaintainer 
 {
     static string androidVersion = "0.0.27";
     static string iOSVersion = "0.0.27";
