@@ -80,7 +80,7 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           projectPath: LostTwins2
-          buildMethod: Assets.Editor.VersioningMaintainer.VersionSetter
+          buildMethod: LostTwins2.Assets.Editor.VersioningMaintainer.VersionSetter
           allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
