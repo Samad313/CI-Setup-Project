@@ -79,8 +79,7 @@ jobs:
           key: Library-iOS
       - uses: game-ci/unity-builder@v2
         with:
-          versioning: Custom
-          version: 0.0.27
+          buildMethod: Editor.VersioningMaintainer.VersionSetter
           allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
