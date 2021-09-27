@@ -39,7 +39,7 @@ namespace WRP.Editor
                 case BuildTarget.Android:
                     {
                         PlayerSettings.bundleVersion = "0.0.27";
-                        PlayerSettings.Android.bundleVersionCode = 4;//int.Parse(options["androidVersionCode"]);
+                        PlayerSettings.Android.bundleVersionCode = 5;//int.Parse(options["androidVersionCode"]);
                         //EditorUserBuildSettings.buildAppBundle = options["customBuildPath"].EndsWith(".aab");
                         //if (options.TryGetValue("androidKeystoreName", out string keystoreName) &&
                         //    !string.IsNullOrEmpty(keystoreName))
@@ -68,7 +68,7 @@ namespace WRP.Editor
                     break;
                 case BuildTarget.iOS:
                     PlayerSettings.bundleVersion = "0.0.27";
-                    PlayerSettings.iOS.buildNumber = "4";
+                    PlayerSettings.iOS.buildNumber = "5";
                     break;
             }
 
