@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using UnityEditor;
+using UnityEngine;
 
 
 public class VersioningMaintainer 
@@ -17,11 +18,11 @@ public class VersioningMaintainer
     public static void VersionSetter()
     {
         // Set version for this build
+        Debug.Log("Running VersionSetter");
 
 #if UNITY_IOS
-
-        PlayerSettings.bundleVersion = "0.0.27";
-        PlayerSettings.iOS.buildNumber = "4";
+        PlayerSettings.bundleVersion = iOSVersion;
+        PlayerSettings.iOS.buildNumber = buildNumber;
         
 #elif UNITY_ANDROID
 
