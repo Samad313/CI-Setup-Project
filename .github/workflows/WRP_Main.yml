@@ -79,8 +79,8 @@ jobs:
           key: Library-iOS
       - uses: game-ci/unity-builder@v2
         with:
+          buildMethod: VersioningMaintainer.VersionSetter
           projectPath: LostTwins2
-         # buildMethod: VersioningMaintainer.VersionSetter
           allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
