@@ -15,22 +15,22 @@ namespace WRP.Editor
     {
         private static readonly string Eol = Environment.NewLine;
 
-        private static readonly string[] Secrets =
-            {"androidKeystorePass", "androidKeyaliasName", "androidKeyaliasPass"};
+        //private static readonly string[] Secrets =
+        //    {"androidKeystorePass", "androidKeyaliasName", "androidKeyaliasPass"};
 
         [UsedImplicitly]
         public static void BuildOptions()
         {
-            // Gather values from args
+           // Gather values from args
             Dictionary<string, string> options = GetValidatedOptions();
 
-            // Set version for this build
-            string version = options["buildVersion"];
-            PlayerSettings.bundleVersion = version;
-            PlayerSettings.macOS.buildNumber = version;
-            while (version.Split(new[] { '.' }, StringSplitOptions.RemoveEmptyEntries).Length < 4)
-                version += ".0";
-            PlayerSettings.WSA.packageVersion = new Version(version);
+           // Set version for this build
+            //string version = options["buildVersion"];
+            //PlayerSettings.bundleVersion = version;
+            //PlayerSettings.macOS.buildNumber = version;
+            //while (version.Split(new[] { '.' }, StringSplitOptions.RemoveEmptyEntries).Length < 4)
+            //    version += ".0";
+            //PlayerSettings.WSA.packageVersion = new Version(version);
 
             // Apply build target
             var buildTarget = (BuildTarget)Enum.Parse(typeof(BuildTarget), options["buildTarget"]);
@@ -38,32 +38,33 @@ namespace WRP.Editor
             {
                 case BuildTarget.Android:
                     {
-                        PlayerSettings.Android.bundleVersionCode = int.Parse(options["androidVersionCode"]);
-                        EditorUserBuildSettings.buildAppBundle = options["customBuildPath"].EndsWith(".aab");
-                        if (options.TryGetValue("androidKeystoreName", out string keystoreName) &&
-                            !string.IsNullOrEmpty(keystoreName))
-                            PlayerSettings.Android.keystoreName = keystoreName;
-                        if (options.TryGetValue("androidKeystorePass", out string keystorePass) &&
-                            !string.IsNullOrEmpty(keystorePass))
-                            PlayerSettings.Android.keystorePass = keystorePass;
-                        if (options.TryGetValue("androidKeyaliasName", out string keyaliasName) &&
-                            !string.IsNullOrEmpty(keyaliasName))
-                            PlayerSettings.Android.keyaliasName = keyaliasName;
-                        if (options.TryGetValue("androidKeyaliasPass", out string keyaliasPass) &&
-                            !string.IsNullOrEmpty(keyaliasPass))
-                            PlayerSettings.Android.keyaliasPass = keyaliasPass;
+                        PlayerSettings.bundleVersion = "0.0.27";
+                        PlayerSettings.Android.bundleVersionCode = 4;//int.Parse(options["androidVersionCode"]);
+                        //EditorUserBuildSettings.buildAppBundle = options["customBuildPath"].EndsWith(".aab");
+                        //if (options.TryGetValue("androidKeystoreName", out string keystoreName) &&
+                        //    !string.IsNullOrEmpty(keystoreName))
+                        //    PlayerSettings.Android.keystoreName = keystoreName;
+                        //if (options.TryGetValue("androidKeystorePass", out string keystorePass) &&
+                        //    !string.IsNullOrEmpty(keystorePass))
+                        //    PlayerSettings.Android.keystorePass = keystorePass;
+                        //if (options.TryGetValue("androidKeyaliasName", out string keyaliasName) &&
+                        //    !string.IsNullOrEmpty(keyaliasName))
+                        //    PlayerSettings.Android.keyaliasName = keyaliasName;
+                        //if (options.TryGetValue("androidKeyaliasPass", out string keyaliasPass) &&
+                        //    !string.IsNullOrEmpty(keyaliasPass))
+                        //    PlayerSettings.Android.keyaliasPass = keyaliasPass;
                         break;
                     }
                 case BuildTarget.StandaloneOSX:
-                    PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.Mono2x);
+                    //PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.Mono2x);
                     break;
                 case BuildTarget.StandaloneWindows:
                 case BuildTarget.StandaloneWindows64:
-                    if (!options["customBuildPath"].EndsWith(".exe"))
-                        options["customBuildPath"] = options["customBuildPath"] + "/cgs.exe";
+                    //if (!options["customBuildPath"].EndsWith(".exe"))
+                    //    options["customBuildPath"] = options["customBuildPath"] + "/cgs.exe";
                     break;
                 case BuildTarget.WSAPlayer:
-                    EditorUserBuildSettings.wsaUWPBuildType = WSAUWPBuildType.XAML;
+                    //EditorUserBuildSettings.wsaUWPBuildType = WSAUWPBuildType.XAML;
                     break;
                 case BuildTarget.iOS:
                     PlayerSettings.bundleVersion = "0.0.27";
