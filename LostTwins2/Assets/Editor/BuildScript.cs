@@ -135,11 +135,11 @@ namespace WRP.Editor
                 // Parse optional value
                 bool flagHasValue = next < args.Length && !args[next].StartsWith("-");
                 string value = flagHasValue ? args[next].TrimStart('-') : "";
-                bool secret = Secrets.Contains(flag);
-                string displayValue = secret ? "*HIDDEN*" : "\"" + value + "\"";
+                //bool secret = Secrets.Contains(flag);
+                //string displayValue = secret ? "*HIDDEN*" : "\"" + value + "\"";
 
                 // Assign
-                Console.WriteLine($"Found flag \"{flag}\" with value {displayValue}.");
+                Console.WriteLine($"Found flag \"{flag}\" with value ---.");
                 providedArguments.Add(flag, value);
             }
         }
