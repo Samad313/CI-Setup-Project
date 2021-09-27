@@ -20,8 +20,8 @@ public class VersioningMaintainer
 
 #if UNITY_IOS
 
-        PlayerSettings.bundleVersion = iOSVersion;
-        PlayerSettings.iOS.buildNumber = buildNumber;
+        PlayerSettings.bundleVersion = "0.0.27";
+        PlayerSettings.iOS.buildNumber = "4";
         
 #elif UNITY_ANDROID
 
