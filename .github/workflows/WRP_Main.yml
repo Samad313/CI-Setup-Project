@@ -10,26 +10,46 @@ on:
         description: 'Android/iOS/Mac/All'
         required: true
         default: 'iOS'
+        
 jobs:
   buildForMacPlatform:
+    
     if: contains(github.event.inputs.mode, 'Mac')  || contains(github.event.inputs.mode, 'All')
-    name: Build for Mac
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repository
+    
+  name: Build for Mac
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout code
       uses: actions/checkout@v2
+
+    - name: Create LFS file list
+      run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+    - name: Restore LFS cache
+      uses: actions/cache@v2
+      id: lfs-cache
       with:
-        lfs: true
-    - uses: actions/cache@v1.1.0
+        path: .git/lfs
+        key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+    - name: Git LFS Pull
+      run: |
+        git lfs pull
+        git add .
+        git reset --hard
+
+    - name: Restore Library cache
+      uses: actions/cache@v2
       with:
-        path: RaceRoyale/Library
-        key: Library 
-        
+        path: LostTwins2/Library
+        key: Library-LostTwins2-Mac
+
     - uses: game-ci/unity-builder@v2
       with:
-          allowDirtyBuild: true
-          unityVersion: 2020.3.13f1
-          targetPlatform: StandaloneOSX
+        projectPath: LostTwins2
+        allowDirtyBuild: false
+        unityVersion: 2020.3.13f1
+        targetPlatform: StandaloneOSX
       env:
         UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
         UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
@@ -38,50 +58,88 @@ jobs:
     - name: Zip build folder
       run: zip -r build.zip build
     - name: upload to dropbox
-      run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer wzzVXFwU8BoAAAAAAAAAAZ4PVcfq2N_OoTz9PwoZPQt54tFj-NjG-4mZlidyjYPo"     --header "Dropbox-API-Arg:{\"path\":\"/RaceRoyale/build.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @build.zip
-
+      run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer sl.A3r2-TZHu282oDjI1_bljww1dRItG6Heony9o9EJVcaIPWBFw7RyKUyerPufTZz5tTiwESPI59vs0-4BzvoB53wOrS4yOaWOixz15SFYrSTSyqeKnQSqBLaoVQidxLpCLWAyAuw"     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/MacBuildCI/MacBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @MacBuild.zip
     
   buildForAndroidPlatform:
     if: contains(github.event.inputs.mode, 'Android')  || contains(github.event.inputs.mode, 'All')
     name: Build for Android
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create LFS file list
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore LFS cache
+        uses: actions/cache@v2
+        id: lfs-cache
         with:
-          path: Library
-          key: Library
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+      - name: Git LFS Pull
+        run: |
+          git lfs pull
+          git add .
+          git reset --hard
+      - name: Restore Library cache
+        uses: actions/cache@v2
+        with:
+          path: LostTwins2/Library
+          key: Library-LostTwins2-Android
+        
       - uses: game-ci/unity-builder@v2
         with:
-          allowDirtyBuild: true
-          unityVersion: 2020.3.13f1
-          targetPlatform: Android
+            buildMethod: WRP.Editor.BuildCgs.BuildOptions
+            projectPath: LostTwins2
+            allowDirtyBuild: false
+            unityVersion: 2020.3.13f1
+            targetPlatform: Android
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-    
+        
       - name: Zip build folder
         run: zip -r AndroidBuild.zip build
       - name: upload to dropbox
-        run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer wzzVXFwU8BoAAAAAAAAAAZ4PVcfq2N_OoTz9PwoZPQt54tFj-NjG-4mZlidyjYPo"     --header "Dropbox-API-Arg:{\"path\":\"/RaceRoyale/build.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @AndroidBuild.zip
-
-
+        run: curl -X POST https://content.dropboxapi.com/2/files/upload     --header "Authorization:Bearer ${{ secrets.UNITY_SERIAL }}     --header "Dropbox-API-Arg:{\"path\":\"/LostTwins2/AndroidBuildCI/AndroidBuild.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false,\"strict_conflict\":false}"     --header "Content-Type:application/octet-stream"     --data-binary @AndroidBuild.zip
+        
   buildForiOSPlatform:
     if: contains(github.event.inputs.mode, 'iOS')  || contains(github.event.inputs.mode, 'All')
     name: Build for iOS
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+        steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create LFS file list
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore LFS cache
+        uses: actions/cache@v2
+        id: lfs-cache
         with:
-          path: Library
-          key: Library-iOS
-      - uses: game-ci/unity-builder@v2
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+      - name: Git LFS Pull
+        run: |
+          git lfs pull
+          git add .
+          git reset --hard
+      - name: Restore Library cache
+        uses: actions/cache@v2
         with:
+          path: LostTwins2/Library
+          key: Library-LostTwins2-iOS
+        
+    - uses: game-ci/unity-builder@v2
+      with:
           buildMethod: WRP.Editor.BuildCgs.BuildOptions
           projectPath: LostTwins2
-          allowDirtyBuild: true
+          allowDirtyBuild: false
           unityVersion: 2020.3.13f1
           targetPlatform: iOS        
         env:
@@ -90,7 +148,7 @@ jobs:
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}    
       - uses: actions/upload-artifact@v2
         with:
-          name: RaceRoyale-iOS
+          name: LostTwins2-iOS
           path: build/iOS
 
   releaseToAppStore:
@@ -119,7 +177,7 @@ jobs:
       - name: Download iOS Artifact
         uses: actions/download-artifact@v2
         with:
-          name: RaceRoyale-iOS
+          name: LostTwins2-iOS
           path: build/iOS
       - name: Make App Store p8 and Fix File Permissions
         run: |
@@ -140,4 +198,4 @@ jobs:
         if: always()
         uses: geekyeggo/delete-artifact@v1
         with:
-          name: RaceRoyale-iOS
+          name: LostTwins2-iOS
