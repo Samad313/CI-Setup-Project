@@ -1,0 +1,341 @@
+HomeScreen_TapToPlayButtonText,TAP TO PLAY!
+HomeScreen_RaceEventButtonText,RACE EVENTS
+HomeScreen_GarageButtonText,GARAGE
+HomeScreen_GearButtonText,GEAR
+HomeScreen_VideoConfirmationPopup_Heading,FREE STUFF!
+HomeScreen_VideoConfirmationPopup_Caption,Watch a short video for a reward?
+HomeScreen_VideoConfirmationPopup_YesButton,Yes
+HomeScreen_VideoConfirmationPopup_NoButton,No
+HomeScreen_VideoConfirmationPopup_MysteryBox_Common,COMMON MYSTERY BOX
+HomeScreen_VideoConfirmationPopup_MysteryBox_Epic,EPIC MYSTERY BOX
+HomeScreen_VideoConfirmationPopup_MysteryBox_Rare,RARE MYSTERY BOX
+HomeScreen_RatePopup_Heading,Rate the Game
+HomeScreen_RatePopup_Caption,Take a moment to rate this game 
+HomeScreen_RatePopup_Feedback_Heading,THANK YOU
+HomeScreen_RatePopup_Feedback_Caption,We appreciate your feedback
+HomeScreen_RatePopup_Feedback_OKButtonText,OK
+HomeScreen_NewCarSpottedText,New Car Spotted
+HomeScreen_NewCarSpotted_GarageButtonText,GARAGE
+HomeScreen_AdNotAvailablePopUp_Heading,Sorry!
+HomeScreen_AdNotAvailablePopUp_Description,No Network Access
+HomeScreen_AdNotAvailablePopUp_ButtonText,OK
+HomeScreen_Tutorial_GearButtonText,GEAR
+LoadingScreen_Text,LOADING
+Settings_Menu_Heading,SETTINGS
+Settings_music,MUSIC
+Settings_sfx,SFX
+Settings_reminders,REMINDERS
+Settings_privaacy,PRIVACY##POLICY
+Settings_ads,ADS##PRIVACY
+Settings_tos,TOS
+Settings_privacy,PRIVACY
+SettingButton_on,ON
+SettingButton_off,OFF
+ShopMenu_HeadingText,SHOP
+ShopMenu_TabTextBoost,BOOSTS
+ShopBoosts_HeadStartInfo,Activate at begining of a run to get a headstart 
+ShopBoosts_HeadstartText,HEADSTART
+ShopBoosts_HeadStartQuantityText,You have:
+ShopBoosts_NotEnoughCurrency,Sorry!##You Dont Have enough currency.
+ShopBoosts_NotEnoughCurrencyOkButton,OK
+ShopMystery_Heading,MYSTERY BOX
+ShopMystery_ViewPricesButtonText,VIEW PRIZES
+ShopMystery_GetExcitingPricesCaptionText,Get Exciting Prizes immediately 
+ShopMystery_MysteryBoxRareText,RARE
+ShopMystery_MysteryBoxEpicText,EPIC
+ShopMystery_MysteryBoxCommonText,COMMON
+ShopBundle_HeadingText,BUNDLES
+ShopBundle_MostPopularTagText,Most Popular!
+ShopBundle_CashDoublerText,CASH DOUBLER
+ShopBundle_RestorePurchaseText,Restore Purchases
+Shopbundle_NotEnoughCurrencyPopUpHeading,Sorry!
+Shopbundle_NotEnoughCurrencyPopUpCaption,You Dont Have enough currency.
+Shopbundle_NotEnoughCurrencyPopUpOkButtonText,OK
+ShopMenu_PurcahseProcessingText,Processing...
+Shopbundle_Success_Heading,SUCCESS
+Shopbundle_Success_Description,Congratulations!##Your purchase was successful
+Shopbundle_Success_OkButtonText,OK
+NoAdAvailable_Heading,Sorry!
+NoAdAvailable_Description,No Network Access
+RewardedaAds_Heading,Free Stuff!
+RewardedAds_CommonMysteryBoxText,COMMON MYSTERY BOX
+RewardedAds_ConfirmationText,Are you sure you want to see a rewarded Ad?
+RewardedAds_Waiting,Waiting for Ad to finish...
+RateGame_heading,Rate the Game
+RateGame_middle,Take a moment to rate this game
+RateGame_buttonno,NO
+RateGame_buttonyes,YES
+Leaderboad_BannerText,LEADERBOARD
+Leaderboad_loading,Fetching scores..
+Leaderboard_Rank,Rank 
+Leaderboard_Name,Name 
+Leaderboard_Score,Score
+Rewarded Ads_1,Are you sure you want to see a rewarded Ad
+Rewarded Ads_2,Yes
+Appodeal_Heading,Appodeal
+Appodeal_Caption,Personailze your Ad Experience
+Appodeal_Text1,"This Application personalizes your advertising experience using Appodeal.Appodeal and its partners may collect and process personal data such as device identifiers, location data, and other demographic and interest data to provide advertising experience tailored to you. By consenting to this improved ad experience, you'll see ads that Appodeal and its partners believe are more relevant to you."
+Appodeal_Text2,Learn More
+Appodeal_Text3,"By agreeing, you confirm that you are over the age of 16 and would like a personalized ad experience.."
+Appodeal_Yes,Yes I Agree
+Appodeal_No,No Thanks
+Appodeal_Text4,"I understand that i will still see ads, but they may not be as relevant to my interests."
+Appodeal_Text5,"Great! We hope to see you enjoy personalized ad experience. If you ever change your mind, you can withdraw your consent by entaching ""Limit Ad Tracking"" under Settings/Privacy/Advertsiing on your iOS device and then restarting this app"
+Appodeal_Continue,Continue
+RaceEvents_1,Wild Haste
+RaceEvents_2,Flex Freeway
+RaceEvents_3,Phat Stax
+RaceEvents_4,Dead Man's Run
+RaceEvents_5,Nitro Alley
+RaceEvents_6,Queen Street
+RaceEvents_7,Carbon Sunrise 
+RaceEvents_8,Midtown Rush
+Garage_CarNameText,Repair Model-V so that you can participate in races
+Garage_RepairingText,Reparing
+Tutorial_Garagepop_unlock,"You unlocked Model V, Let's go to garage to repair it"
+Tutorial_Garagepop_goodjob,Great! Your Model-V is repaired and Race Ready!
+Tutorial_Garagepop_Repaired,REPAIRED
+Tutorial_Garagepop_continue,CONTINUE
+Tutorial_Gargepop_raceevents_tab,RACE EVENTS
+Tutuorial_Garagepop_f,Let’s take the Model-V out for a Race!
+Garage_SpeedBarText,Speed
+Garage_ArmourBarText,Armour
+Garage_BoostBarText,Boost
+Garage_ScoreMutliplierScore,Score
+Garage_ScoreMutliplierText,Multiplier
+Garage_RepairButton_Repair,REPAIR
+Garage_RepairButton_Locked,LOCKED
+Garage_UpgradePanel_Speed,Speed
+Garage_UpgradePanel_Armour,Armour
+Garage_UpgradePanel_Boost,Boost
+Garage_AvailableToCaptureText,Available to Capture In-Game
+Tutorial_RapidaUnlocked,Rapida Unlocked
+Garage_UnlockThisCarHeading,To Unlock this car:
+Garage_CarRequirements_FirstRequirement,Upgrade
+Garage_CarRequirements_SecondRequirement,Win [racecount] races with [carname]
+Garage_NotEnoughCurrency_Heading,Not Enough Cogs
+Garage_NotEnoughCurrency_Description,Complete Missions and win Races to earn Cogs for Upgrades!
+Garage_NotEnoughCurrency_ButtonText,OK
+Garage_NotEnoughCurrency_WatchAdToExpedite,Watch video to expedite
+Tutorial_Repairing_Text,Repairing
+Tutorial_Garage_tutorialstep,Here are 9 cogs for you to upgarde your car. For future earn Cogs by completing in game mission. Let's start by upgrading speed
+Tutorial_Garage_tutorialracecomplete,"You have succesfully upgraded [carname] and won [racecount] race with it, hence unlocked [carname]"
+Tutorial_Garage_CarUnlockedPopup,Awesome! You have unlocked the Rapida!
+Tutorial_UpgradeCatapult,
+,
+Tutorial_Garage_rapidaunlockedheading,[carname] Unlocked
+Tutorial_Garage_rapidaunlockedtext,Good job!!!! Let's try and capture it in game
+Tutorial_Garage_carupgraded,Car Upgraded
+Tutorial_Garage_congratulations,Good job!!! ##You have completed upgraded. ##You can earn more Cogs by completing missions in game.
+Tutorial_Garage_RaceButtonText,Go Race!
+Garage_RaceDisableButton,Car Locked!
+Garage_RaceButtonTimeLeftInrace,Time Left In Race!
+Tutorial_Hold_Drag,Hold and Drag to Steer
+Tutorial_Collect_Cash,Collect 15 Cash!
+Tutorial_GoodWork,Good work!!!
+Tutorial_Avoid_Obstacles,Avoid the Obstacles!
+Tutorial_TouchAndHold,Touch & Hold
+Tutorial_HoldOn,Hold On
+Tutorial_AlignYourCar,Align your car with the car in-front
+Tutorial_VehiclesThrowOff,These vehicles throw you off!
+Tutorial_ReleaseToJump,Release to Jump
+Tutorial_PressAndHold,Press & Hold
+Tutorial_TapAndHold,Tap & Hold On
+Tutorial_VehiclesSpeedUp,These vehicles speed up!
+Tutorial_VehiclesSwerve,These vehicles swerve!
+Tutorial_Jump3More,Jump on 3 more vehicles!
+Tutorial_Jump2More,Now jump on 2 more
+Tutorial_OneMore,One more left!
+Tutorial_TryAgain,Try Again!
+Tutorial_message,NEW MESSAGE
+Tutorial_message1,"Hey, someone spotted your [carname]! If you can make it [AvailabilityDistance]m, you should be close to its location."
+Tutorial_message2,The [carname] is up ahead! Get it before they take off!
+Tutorial_messagebutton,CONTINUE
+Tutorial_carcaptured,Car Captured!!
+Tutorial_carcapturedheading,CAR CAPTURED!!!
+Tutorial_carcaptured1,Congratulations
+Tutorial_carcaptured2,[carname]
+Tutorial_carcapturedbutton,GARAGE
+Tutorial_10,"You have sucessfully upgraded [carname] and won [racecount] race with it, hence unlocked [carname]..."
+SportsCarCaptured_Title,CAR CAPTURED
+Continue_Heading,CONTINUE?
+Continue_SaveMeButton,Save me?
+Continue_WatchAdVideoButton,Watch Video
+Continue_BeatingScoreHeading,BEATING YOUR SCORE!
+Continue_CurrentScore_CurrentscoreText,Current Score:
+Continue_CurrentScore_HighscoreText,Highscore:
+Continue_MissionHeading,MISSION ALMOST DONE!
+Missions_ProgressText,In Progress...
+Missions_CompletedText,Completed
+Missions_RewardText,Reward:
+Missions_SkipText,SKIP
+Missions_ClaimText,CLAIM
+RestartConfirmation_Title,Are your sure?
+RestartConfirmation_Cancel,Cancel
+RestartConfirmation_Restart,Restart
+DeathScreen_heading,GAME OVER
+DeathScreen_scoreheading,SCORE
+DeathScreen_score,Score:
+DeathScreen_missions,MISSIONS
+DeathScreen_cash,Cash:
+DeathScreen_cashdoubler,CASH##DOUBLER
+DeathScreen_play,PLAY
+DeathScreen_captured,Captured
+DeathScreen_notcaptured,Sports Car not Captured yet!
+DeathScreen_carnotavailable_RaceButton,RACE
+QuitConfirmationPopup_Text,Back to Main Menu?
+DeathMissionsScreen_Continue,CONTINUE
+Headstart_1,Headstart
+Headstart_2,You have
+PreEndlessPopup_GarageDescription,Unlock new Sports Cars by upgrading [carname]
+PreEndlessPopup_RaceDescription,To unlock next car complete races with [carname]
+HUD_CarCapturedText,Car Captured!!!
+HUD_CopsEvadedText,Cops Evaded!
+HUD_BustedText,Busted!
+HUD_CollectNitrosText,Collect##[nitrosrequired] Nitros
+HUD_EvadeCopsText,Evade Cops!
+HUD_JumpOnVehicleText,Jump on the vehicle ahead!!!
+HUD_JumpOnSportsCarText,Jump on the sports car ahead!!!
+HUD_NitroBarActivatedText,NITRO ACTIVATED
+Pause_heading,PAUSE
+Pause_inprogress,In Progress..
+Mission_0,Jump on 12 normal vehicles in a run
+Mission_1,Collect 350 Cash in a run
+Mission_2,Get busted 8 times
+Mission_3,Score 3000 points in a run
+Mission_4,Stay on normal vehicles for 30 seconds in a run
+Mission_5,Collect 3 mystery boxes
+Mission_6,Use 4 headstarts
+Mission_7,Stay on normal vehicles for 45 seconds in a run
+Mission_8,Jump on 15 normal vehicles in a run
+Mission_9,Evade the cops twice in a run
+Mission_10,Stay in cop chase for 25 seconds in a run
+Mission_11,Collect 400 Cash in a run
+Mission_12,Stay on normal vehicles for 60 seconds in a run
+Mission_13,Finish race 8 times
+Mission_14,Win race 3 times
+Mission_15,Jump on normal vehicles 30 times in a run
+Mission_16,Collect 550 cash in a run
+Mission_17,Get Busted 15 times
+Mission_18,Score 5500 points in a run
+Mission_19,Collect 8 Mystery Boxes
+Mission_20,Use 12 headstarts
+Mission_21,Use 18 headstarts
+Mission_22,Evade cops 3 times in a run
+Mission_23,Stay in cop chase for 40 seconds in a run
+Mission_24,Get busted 17 times
+Mission_25,Stay on normal vehicles for 90 seconds in a run
+Mission_26,Jump on 40 normal vehicles in a run
+Mission_27,Collect 650 cash in a run
+Mission_28,Get busted 20 times
+Mission_29,Score 7500 points in a run
+Mission_30,Collect 15 mystery boxes
+Mission_31,Use 14 headstarts
+Mission_32,Finish race 10 times
+Mission_33,Evade the cops 5 times in a run
+Mission_34,Stay in cop chase for 60 seconds in a run
+Mission_35,Win race 5 times
+Mission_36,Stay on normal vehicles for 110 seconds in a run
+Mission_37,Finish race 35 times
+Mission_38,Win race 10 times
+Mission_39,Jump on normal vehicles 60 times in a run
+Mission_40,Collect 750 cash in a run
+Mission_41,Get Busted 30 times
+Mission_42,Score 10000 points in a run
+Mission_43,Collect 25 Mystery Boxes
+Mission_44,Use 20 headstarts
+Mission_45,Collect 7 mystery boxes
+Mission_46,Evade cops 6 times in a run
+Mission_47,Stay in cop chase for 75 seconds in a run
+Mission_48,Stay on normal vehicles for 140 seconds in a run
+CannotAfford_Heading,Not enough currency
+CannotAfford_Midtext,You do not have enough currency
+CannotAfford_BottomText,Visit shop to get more
+Pause_buttonrestart,RESTART
+Pause_buttonresume,RESUME
+Pause_quitbutton,QUIT
+Gear_accessories1,Droplet Choker
+Gear_accessories2,Double Layered Choker
+Gear_accessories3,Bow Choker
+Gear_accessories4,Princess Cut Choker
+Gear_accessories5,Elastic Choker
+Gear_accessories6,Lace Choker
+Gear_accessories7,Heart Choker
+Gear_accessories8,Leather Choker
+Gear_accessories9,Velvet Choker
+Gear_accessories10,Felt Choker
+Gear_bottoms_11,Skinnies
+Gear_bottoms_12,Grazed Jeans
+Gear_bottoms_13,Sweat Pants
+Gear_bottoms_14,Ripped Jeans
+Gear_bottoms_15,Striped Jeans
+Gear_bottoms_16,Black Jeans
+Gear_bottoms_17,Shorts
+Gear_shoes_18,Trainers
+Gear_shoes_19,Skate shoes
+Gear_shoes_20,Beige Trainers
+Gear_shoes_21,Heels
+Gear_shoes_22,Blue Trainers
+Gear_shoes_23,Slides
+Gear_shoes_24,White Trainers
+Gear_top_25,Spaghetti strap top
+Gear_top_26,Sweat shirt
+Gear_top_27,Jumper
+Gear_top_28,Tank top
+Gear_top_29,Jacket
+Gear_accessories_30,Candy Glare
+Gear_accessories_31,Rock Black
+Gear_accessories_32,Funky Retro
+Gear_accessories_33,Jazzy Green
+Gear_accessories_34,Orange Pop
+Gear_top_35,Cropped Top
+Gear_top_36,Plain top
+Gear_BannerText,Gear
+Gear_Cant_Buy_Title,Not Enough
+Gear_Cant_Buy_Text1,You do not have enough costume parts
+Gear_Cant_Buy_MysteryBox_Title,Mystery Box
+Gear_Cant_Buy_MysteryBox_Text,Buy a mystery box to get more costume parts
+Gear_Cant_Buy_Ok,Ok
+Gear_Cant_EquipButtonText,Equip
+Gear_newgearheading,New Gear Available
+Gear_newgeartext,Let's head to Gear Menu to check out new gear
+RaceEvents_Firstpop1,Name:
+RaceEvents_Firstpop2,First Race
+RaceEvents_Firstpop3,Cost:
+RaceEvents_Firstpop4,Reward:
+RaceEvents_First_Race_Heading,It's Race Time
+RaceEvents_First_Race_Text,View Races here on the Map Screen. You can enter First Race. Tap to view it.
+RaceEvent_firstracemenuheading,First Race
+RaceEvent_Location,Location:
+RaceEvent_City,City
+RaceEvent_Desert,Desert
+RaceEvent_Reward,Reward
+RaceEvent_CarRequired,Car Required:
+RaceEvent_CarAvailable,Car Available
+RaceEvent_Repairing,Car Repair in progress
+RaceEvent_CarNotAvailable,Car Not Available
+RaceEvent_Opponents,Opponents:
+RaceEvent_firstracemenutagbutton,RACE
+Race_PausePopupTitle,Leave the Race?
+Race_PausePopupResume,RESUME
+Race_PausePopupQuit,QUIT
+Race_HUD_Go,Go
+Race_ResultsScreen_Title,RESULT
+Race_ResultsScreen_First,You WON!
+Race_ResultsScreen_Second,Runner up
+Race_ResultsScreen_Third,You came [raceposition]rd. Better luck next time
+Race_ResultsScreen_Last,You came [raceposition]th. Better luck next time
+Race_ResultsScreen_ClaimPrize,Claim Prize
+Race_ResultsScreen_Home,HOME
+Race_GotoHome,Home
+RaceEvents_First_9_Heading,Good Job
+RaceEvents_First_9_Text,Well done on winning your first race. However you will need to upgrade your car if you want to have a chance in winning a future race. Let's go to Garage again!
+RaceEvent_TimeLeft,Time Left##
+RaceEvent_Race_Now_Text,Race Now##
+Garage_MissionStatement_upgrdrade,is fully upgraded!
+Garage_NextCarAvailebleInGame,Next car available in-game!
+Garage_MoreCarCommingSoon,More cars coming soon
+Garage_ToUnlockNextCar,To unlock next car:
+Garage_WinText,Win
+Garage_RacesText, races with 
+Garage_UpgradePanelHeading,Car Upgrades

@@ -1,0 +1,153 @@
+
+girl.png
+size: 1304,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 243, 130
+  size: 136, 218
+  orig: 136, 218
+  offset: 0, 0
+  index: -1
+cap
+  rotate: false
+  xy: 464, 135
+  size: 171, 131
+  orig: 171, 131
+  offset: 0, 0
+  index: -1
+cape
+  rotate: true
+  xy: 3, 85
+  size: 181, 237
+  orig: 181, 237
+  offset: 0, 0
+  index: -1
+eyebrow l
+  rotate: true
+  xy: 1131, 32
+  size: 16, 7
+  orig: 16, 7
+  offset: 0, 0
+  index: -1
+eyebrow r
+  rotate: true
+  xy: 1131, 50
+  size: 23, 8
+  orig: 23, 8
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1239, 2
+  size: 58, 22
+  orig: 58, 22
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 257, 41
+  size: 87, 106
+  orig: 87, 106
+  offset: 0, 0
+  index: -1
+hair back
+  rotate: true
+  xy: 366, 37
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+hair front
+  rotate: true
+  xy: 638, 152
+  size: 114, 166
+  orig: 114, 166
+  offset: 0, 0
+  index: -1
+hair left
+  rotate: true
+  xy: 638, 73
+  size: 77, 140
+  orig: 77, 140
+  offset: 0, 0
+  index: -1
+hair top
+  rotate: false
+  xy: 464, 27
+  size: 137, 106
+  orig: 137, 106
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: false
+  xy: 1239, 26
+  size: 62, 240
+  orig: 62, 240
+  offset: 0, 0
+  index: -1
+left arm2
+  rotate: true
+  xy: 781, 3
+  size: 70, 240
+  orig: 70, 240
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: true
+  xy: 807, 75
+  size: 83, 346
+  orig: 83, 346
+  offset: 0, 0
+  index: -1
+left shows
+  rotate: false
+  xy: 604, 15
+  size: 82, 56
+  orig: 82, 56
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 366, 74
+  size: 54, 50
+  orig: 54, 50
+  offset: 0, 0
+  index: -1
+pandant
+  rotate: true
+  xy: 1024, 8
+  size: 65, 104
+  orig: 65, 104
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 1156, 15
+  size: 80, 251
+  orig: 80, 251
+  offset: 0, 0
+  index: -1
+right arm2
+  rotate: true
+  xy: 3, 3
+  size: 80, 251
+  orig: 80, 251
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: true
+  xy: 807, 160
+  size: 106, 346
+  orig: 106, 346
+  offset: 0, 0
+  index: -1
+right shoes
+  rotate: false
+  xy: 689, 18
+  size: 78, 53
+  orig: 78, 53
+  offset: 0, 0
+  index: -1

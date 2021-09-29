@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Aurora 1
+  m_Shader: {fileID: 4800000, guid: 3b73c80b210094d2aa66ea691f15a099, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Mix:
+        m_Texture: {fileID: 2800000, guid: f06709e1b293a5b429206e4612af600f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Color_Slider: 0.27
+    - _Emissive_Strength: 0.07
+    - _Inden_Speed_V: 0
+    - _Indentat_Speed_U: -0.1
+    - _Indentatio_Speed_U: -0.1
+    - _Indentations_Add_Value: 0.87
+    - _Indentations_Speed_U: 0.025
+    - _Indentations_Speed_V: 0
+    - _Indentations_Tile_U: 3
+    - _Indentations_Tile_V: 1
+    - _Lines_Speed_U: 0.001
+    - _Lines_Speed_V: 0
+    - _Lines_Strength: 4.63
+    - _Lines_Tile_U: 5
+    - _Lines_Tile_V: 1
+    - _VO_Speed_U: 0.02
+    - _VO_Speed_U1: -0.1
+    - _VO_Speed_V: -1.77
+    - _VO_Speed_V1: 0
+    - _VO_Tile_U: 2.69
+    - _VO_Tile_V: 1
+    - _Vector_Offset_Strength: 0
+    - __dirty: 0
+    m_Colors:
+    - _Color_1: {r: 0.12139434, g: 0.8301887, b: 0.41155297, a: 1}
+    - _Color_2: {r: 0.25943282, g: 0.66199833, b: 1, a: 1}

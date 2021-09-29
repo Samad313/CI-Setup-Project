@@ -1,0 +1,167 @@
+
+boy.png
+size: 441,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Necklace
+  rotate: false
+  xy: 184, 11
+  size: 41, 114
+  orig: 41, 114
+  offset: 0, 0
+  index: -1
+eyeb1
+  rotate: false
+  xy: 286, 2
+  size: 22, 10
+  orig: 22, 10
+  offset: 0, 0
+  index: -1
+eyeb2
+  rotate: false
+  xy: 166, 112
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 3, 7
+  size: 59, 15
+  orig: 59, 15
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 159, 362
+  size: 160, 161
+  orig: 160, 161
+  offset: 0, 0
+  index: -1
+head2
+  rotate: false
+  xy: 3, 100
+  size: 160, 161
+  orig: 160, 161
+  offset: 0, 0
+  index: -1
+l arm
+  rotate: false
+  xy: 290, 66
+  size: 67, 206
+  orig: 67, 206
+  offset: 0, 0
+  index: -1
+l hand
+  rotate: false
+  xy: 404, 344
+  size: 34, 57
+  orig: 34, 57
+  offset: 0, 0
+  index: -1
+l hand2
+  rotate: true
+  xy: 302, 274
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+l hand3
+  rotate: false
+  xy: 286, 14
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+l leg dn
+  rotate: false
+  xy: 360, 132
+  size: 67, 172
+  orig: 67, 172
+  offset: 0, 0
+  index: -1
+l leg up
+  rotate: true
+  xy: 159, 274
+  size: 86, 140
+  orig: 86, 140
+  offset: 0, 0
+  index: -1
+l shoe
+  rotate: false
+  xy: 360, 72
+  size: 75, 58
+  orig: 75, 58
+  offset: 0, 0
+  index: -1
+left-hand
+  rotate: false
+  xy: 404, 463
+  size: 33, 60
+  orig: 33, 60
+  offset: 0, 0
+  index: -1
+r arm
+  rotate: false
+  xy: 322, 306
+  size: 79, 217
+  orig: 79, 217
+  offset: 0, 0
+  index: -1
+r hand
+  rotate: false
+  xy: 404, 403
+  size: 33, 58
+  orig: 33, 58
+  offset: 0, 0
+  index: -1
+r leg dn
+  rotate: true
+  xy: 3, 24
+  size: 74, 178
+  orig: 74, 178
+  offset: 0, 0
+  index: -1
+r leg up
+  rotate: false
+  xy: 166, 127
+  size: 121, 145
+  orig: 121, 145
+  offset: 0, 0
+  index: -1
+r shoe
+  rotate: true
+  xy: 360, 2
+  size: 68, 58
+  orig: 68, 58
+  offset: 0, 0
+  index: -1
+r shoe2
+  rotate: true
+  xy: 228, 45
+  size: 80, 50
+  orig: 80, 50
+  offset: 0, 0
+  index: -1
+right-hand
+  rotate: true
+  xy: 228, 12
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 3, 263
+  size: 153, 260
+  orig: 153, 260
+  offset: 0, 0
+  index: -1
+white wires
+  rotate: true
+  xy: 65, 2
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1

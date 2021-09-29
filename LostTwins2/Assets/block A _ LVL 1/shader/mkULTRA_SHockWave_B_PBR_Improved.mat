@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mkULTRA_SHockWave_B_PBR_Improved
+  m_Shader: {fileID: 4800000, guid: 8f5b790bd7db94f38b48157e9c515656, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MatCapAlpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f7f322ea849ea7d41adb6fa8a7d8a3e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapSample:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 8900000, guid: 56a68e301a0ff55469ae441c0112d256, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_gradient:
+        m_Texture: {fileID: 2800000, guid: 2305327afb7bf4d6382d4d8c61e20416, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaSpeed: 9.4
+    - _AlphaValue: 0.5
+    - _BlurLevel: 0
+    - _ChromaticAberration: 0.267
+    - _DepthFadeDistance: 4
+    - _FullWaveAlphaValue: 0.74
+    - _GradientAlphaColor: 0
+    - _MeshAlphaColor: 0
+    - _NormalMapXDeviation: 0
+    - _NormalMapXScale: 0
+    - _NormalMapYDeviation: 0
+    - _NormalMapZDeviation: 0
+    - _OffsetX: 0.79
+    - _OffsetY: 0
+    - _OffsetZ: 0.74
+    - _Range: 0.5
+    - _Refraction: 0.92
+    - _ScaleX: 0
+    - _WaveAlphaColor: -0.35
+    - _WaveGradientOffset: 0
+    - __dirty: 0
+    - _offset: -0.03
+    - _opacity: -0.02
+    - _rim: 0
+    - _scale: 0
+    - _speed: 0.3
+    m_Colors:
+    - _NormalMapDeviation: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

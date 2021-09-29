@@ -1,0 +1,307 @@
+
+abi.png
+size: 1995,1527
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abi_parts/abi_face_parts/cap
+  rotate: false
+  xy: 1458, 239
+  size: 535, 283
+  orig: 535, 283
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/ear
+  rotate: true
+  xy: 1805, 1011
+  size: 99, 167
+  orig: 101, 169
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/hairs_1
+  rotate: false
+  xy: 1933, 1255
+  size: 59, 270
+  orig: 59, 270
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/hairs_2
+  rotate: false
+  xy: 453, 189
+  size: 221, 546
+  orig: 221, 546
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/hairs_3
+  rotate: true
+  xy: 453, 737
+  size: 249, 229
+  orig: 249, 229
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/head
+  rotate: true
+  xy: 684, 470
+  size: 425, 491
+  orig: 425, 491
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/left_eye
+  rotate: false
+  xy: 1509, 7
+  size: 89, 67
+  orig: 91, 69
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/left_eye_blink
+  rotate: false
+  xy: 1017, 12
+  size: 79, 68
+  orig: 80, 68
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/left_eye_blink_1
+  rotate: false
+  xy: 1600, 7
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/left_eyeball
+  rotate: true
+  xy: 1118, 93
+  size: 27, 38
+  orig: 29, 40
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/left_eyebrow
+  rotate: false
+  xy: 238, 25
+  size: 75, 26
+  orig: 77, 28
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/mouth
+  rotate: false
+  xy: 109, 16
+  size: 81, 35
+  orig: 83, 37
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/mouth2
+  rotate: true
+  xy: 1909, 50
+  size: 91, 81
+  orig: 92, 81
+  offset: 1, 0
+  index: -1
+abi_parts/abi_face_parts/nose
+  rotate: false
+  xy: 1098, 10
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/right_eye
+  rotate: false
+  xy: 439, 114
+  size: 118, 73
+  orig: 121, 75
+  offset: 2, 1
+  index: -1
+abi_parts/abi_face_parts/right_eye_blink
+  rotate: false
+  xy: 559, 117
+  size: 111, 70
+  orig: 112, 70
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/right_eye_blink_1
+  rotate: false
+  xy: 891, 10
+  size: 124, 70
+  orig: 124, 70
+  offset: 0, 0
+  index: -1
+abi_parts/abi_face_parts/right_eyeball
+  rotate: true
+  xy: 192, 21
+  size: 30, 44
+  orig: 32, 46
+  offset: 1, 1
+  index: -1
+abi_parts/abi_face_parts/right_eyebrow
+  rotate: false
+  xy: 2, 16
+  size: 105, 35
+  orig: 107, 37
+  offset: 1, 1
+  index: -1
+abi_parts/abi_running/head
+  rotate: true
+  xy: 676, 82
+  size: 386, 440
+  orig: 388, 443
+  offset: 1, 1
+  index: -1
+abi_parts/abi_running/left_hand2
+  rotate: false
+  xy: 1509, 76
+  size: 185, 161
+  orig: 187, 164
+  offset: 1, 2
+  index: -1
+abi_parts/abi_running/right_hand2
+  rotate: true
+  xy: 1472, 950
+  size: 160, 169
+  orig: 162, 171
+  offset: 1, 1
+  index: -1
+abi_parts/abi_running/torsro
+  rotate: false
+  xy: 705, 897
+  size: 520, 628
+  orig: 520, 628
+  offset: 0, 0
+  index: -1
+abi_parts/badge
+  rotate: false
+  xy: 318, 113
+  size: 119, 144
+  orig: 121, 146
+  offset: 1, 1
+  index: -1
+abi_parts/cape
+  rotate: false
+  xy: 2, 988
+  size: 701, 537
+  orig: 701, 537
+  offset: 0, 0
+  index: -1
+abi_parts/left-legNew
+  rotate: false
+  xy: 1177, 180
+  size: 279, 715
+  orig: 279, 715
+  offset: 0, 0
+  index: -1
+abi_parts/left_foot
+  rotate: false
+  xy: 1173, 17
+  size: 334, 161
+  orig: 334, 161
+  offset: 0, 0
+  index: -1
+abi_parts/left_hand
+  rotate: false
+  xy: 1844, 853
+  size: 113, 156
+  orig: 116, 161
+  offset: 1, 4
+  index: -1
+abi_parts/left_hand2
+  rotate: true
+  xy: 661, 2
+  size: 78, 113
+  orig: 79, 114
+  offset: 0, 0
+  index: -1
+abi_parts/left_lower_arm
+  rotate: true
+  xy: 1696, 143
+  size: 94, 280
+  orig: 96, 283
+  offset: 1, 2
+  index: -1
+abi_parts/left_upper_arm
+  rotate: true
+  xy: 318, 11
+  size: 100, 341
+  orig: 102, 344
+  offset: 1, 2
+  index: -1
+abi_parts/neck
+  rotate: false
+  xy: 1844, 723
+  size: 113, 128
+  orig: 113, 128
+  offset: 0, 0
+  index: -1
+abi_parts/ribbon
+  rotate: false
+  xy: 1118, 122
+  size: 53, 165
+  orig: 53, 165
+  offset: 0, 0
+  index: -1
+abi_parts/right-legNew
+  rotate: false
+  xy: 2, 259
+  size: 449, 727
+  orig: 449, 727
+  offset: 0, 0
+  index: -1
+abi_parts/right_foot
+  rotate: false
+  xy: 1227, 924
+  size: 243, 186
+  orig: 246, 188
+  offset: 1, 1
+  index: -1
+abi_parts/right_hand
+  rotate: true
+  xy: 1643, 960
+  size: 150, 160
+  orig: 152, 162
+  offset: 1, 1
+  index: -1
+abi_parts/right_hand2
+  rotate: true
+  xy: 776, 2
+  size: 78, 113
+  orig: 79, 114
+  offset: 0, 0
+  index: -1
+abi_parts/right_hand3
+  rotate: false
+  xy: 1118, 289
+  size: 55, 179
+  orig: 55, 180
+  offset: 0, 0
+  index: -1
+abi_parts/right_hand4
+  rotate: false
+  xy: 1844, 580
+  size: 95, 141
+  orig: 95, 141
+  offset: 0, 0
+  index: -1
+abi_parts/right_lower_arm
+  rotate: false
+  xy: 1696, 27
+  size: 211, 114
+  orig: 213, 116
+  offset: 1, 1
+  index: -1
+abi_parts/right_upper_arm
+  rotate: true
+  xy: 2, 53
+  size: 204, 314
+  orig: 206, 316
+  offset: 1, 1
+  index: -1
+abi_parts/shine
+  rotate: false
+  xy: 1458, 524
+  size: 384, 398
+  orig: 425, 407
+  offset: 30, 2
+  index: -1
+abi_parts/torsro
+  rotate: true
+  xy: 1227, 1112
+  size: 413, 704
+  orig: 413, 704
+  offset: 0, 0
+  index: -1

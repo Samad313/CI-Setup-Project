@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7009149676192579216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7009149676192579219}
+  - component: {fileID: 7009149676192579218}
+  - component: {fileID: 7009149676192579217}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7009149676192579219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009149676192579216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7009149676192579218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009149676192579216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f32af381b23cb460db12eb600fc5bbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 7009149676192579217}
+  tracks:
+  - {fileID: 8300000, guid: 28bed8a24544d4d158a22eabc496341f, type: 3}
+  - {fileID: 8300000, guid: 28bed8a24544d4d158a22eabc496341f, type: 3}
+  soundEffects:
+  - name: ButtonClick
+    type: 3
+    clips:
+    - {fileID: 8300000, guid: 9b59b80c7abde48e69bcbe3b112dd2cb, type: 3}
+    - {fileID: 8300000, guid: 069063b7529684542bd49cdf4ceddac1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: Run
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: 9eb947dbc9ac64076aeeeca525f6ce35, type: 3}
+    volume: 0.5
+    pitch: 0.7
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: JumpBoy
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 5e17efbe7dedf4954a19322e0a14be13, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: JumpLand
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: d7aad82860c2b442ca7b63312e9b36bf, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: ShuffleStart
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 895764612583845ff83630e4e5895b44, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: ShuffleEnd
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 54e3b3dba08aa45efa104c49f4046359, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: StarCollected
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 873211a0e46454f24a458b07eb0cc4c9, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: BoxPush
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: cc3cc2f2a83ee4773b5797f28664023c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: BreakingDome
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 6aac6a8d480354cfba4103bb377a6ce9, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PressureButtonPress
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 7f7976332dc7544b597f8b392974bde4, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PressureButtonRelease
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: d2f8b7c932de649649bb71548e0c49fc, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: LevelEnd
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: d014b453da86349d3be9ddd842d503a0, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: Piece0
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: 7baf1b697ea444d0b870102251ea4bed, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: Piece1
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: 5f2ddbc767c0d4d3c8a61462c90d99bc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: Piece2
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: a58d0b181d7c34632a73d0129dccf06c, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: JumpGirl
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 43239640f347c4bc180012c9a1692faa, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: LadderPush
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: 0e13ff54db0a8415b96bbc3cbc1a21b4, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: OrbPush
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: f327676eb1d1b45cf831ec14295bf59b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: BoxDrop
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: d523f225c6a194ebba442ccefd1523e6, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: OrbDrop
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: c46c3e05769f1484cbb6603efd0a1da9, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PushingCrateChar
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: 9eb947dbc9ac64076aeeeca525f6ce35, type: 3}
+    volume: 1
+    pitch: 0.4
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PortalLoop
+    type: 1
+    clips:
+    - {fileID: 8300000, guid: dae5c6bfd147c4d2e95d42ae3055c5ad, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PortalAction
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 4a8bcbd14eb804124a20409d517bae0c, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: PortalCharge
+    type: 0
+    clips:
+    - {fileID: 8300000, guid: 5732fbc797bd0448e9b2477e85525c71, type: 3}
+    volume: 0.3
+    pitch: 3
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+  - name: Piano
+    type: 5
+    clips:
+    - {fileID: 8300000, guid: c6ed17cf2ebf5462eb9fd4d4da34fa82, type: 3}
+    - {fileID: 8300000, guid: 609e382e2806a4543bb5764a1ef7285d, type: 3}
+    - {fileID: 8300000, guid: 29708cf47fab24e949243b352e3efba5, type: 3}
+    - {fileID: 8300000, guid: 6e6e690ebbffb4e11a473e8732867c4f, type: 3}
+    - {fileID: 8300000, guid: 4a3788f3227ac40c29af7c90aed176f6, type: 3}
+    - {fileID: 8300000, guid: 356f484aa89f7437cb4b5ec07a28636d, type: 3}
+    - {fileID: 8300000, guid: 6c80ac8f7f4294740b38df60f75c928e, type: 3}
+    - {fileID: 8300000, guid: a840a5d4ead494dc29ea98c0d206f0b2, type: 3}
+    - {fileID: 8300000, guid: 1d7609ed3a90e4fb1a0823b9d2d3d6cb, type: 3}
+    - {fileID: 8300000, guid: b466449cdfdb84cf0bb5f61d3cf156f9, type: 3}
+    - {fileID: 8300000, guid: 568d676bf47ac4182951a87f4a266c3c, type: 3}
+    - {fileID: 8300000, guid: eef171f9bd6b04abf8d7ad57dc21b489, type: 3}
+    - {fileID: 8300000, guid: bc4ab5f64c9634b6189c2ad0245634a0, type: 3}
+    - {fileID: 8300000, guid: a92b1b691237d46dc98c8db427e6bb47, type: 3}
+    - {fileID: 8300000, guid: f41053e01073640e69c9422a2fe79eed, type: 3}
+    - {fileID: 8300000, guid: 429ca21e4c10e4d8dbc726b080b4cb5c, type: 3}
+    - {fileID: 8300000, guid: 63ea08e24817d4bf1954ecbaaaa24d4a, type: 3}
+    volume: 0.3
+    pitch: 3
+    source: {fileID: 0}
+    lastPitchShiftTime: 0
+--- !u!82 &7009149676192579217
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009149676192579216}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

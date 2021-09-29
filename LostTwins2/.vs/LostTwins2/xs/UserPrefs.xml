@@ -1,11 +1,7 @@
-﻿<Properties StartupConfiguration="{272132A3-7230-3926-AC5A-7F384654B282}|">
+﻿<Properties StartupConfiguration="{44E7E742-A7B2-07FE-4D85-0B902EEB57F3}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BuildScript.cs">
     <Files>
-      <File FileName="Assets/Editor/BBTVBuildPostProcessor.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/BuildPostProcessConstants.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/test.cs" Line="9" Column="1" />
-      <File FileName="Assets/Editor/VersioningMaintainer.cs" Line="21" Column="44" />
-      <File FileName="Assets/Editor/BuildScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Editor/BuildScript.cs" Line="71" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,17 +9,11 @@
           <Node name="LostTwins2" expanded="True" selected="True" />
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="LostTwins2" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="0090c507-fc32-49ae-bdd3-10f945065d6d" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AmplifyShaderEditor PreferredExecutionTarget="eb32c553-ab46-44bc-875d-7ed009c14f64" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0090c507-fc32-49ae-bdd3-10f945065d6d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

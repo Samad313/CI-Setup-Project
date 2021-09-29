@@ -1,0 +1,55 @@
+
+New ladder.png
+size: 455,149
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom
+  rotate: false
+  xy: 227, 69
+  size: 225, 78
+  orig: 225, 78
+  offset: 0, 0
+  index: -1
+bottom_back
+  rotate: false
+  xy: 227, 59
+  size: 216, 8
+  orig: 216, 8
+  offset: 0, 0
+  index: -1
+flag
+  rotate: true
+  xy: 359, 38
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+gear-01
+  rotate: false
+  xy: 280, 19
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+gear-02
+  rotate: false
+  xy: 325, 29
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+top
+  rotate: true
+  xy: 3, 2
+  size: 145, 221
+  orig: 145, 221
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 227, 7
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

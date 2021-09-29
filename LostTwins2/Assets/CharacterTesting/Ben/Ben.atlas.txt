@@ -1,0 +1,293 @@
+
+Ben.png
+size: 1242,1041
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+badge
+  rotate: true
+  xy: 1081, 332
+  size: 85, 156
+  orig: 85, 156
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 3, 661
+  size: 338, 378
+  orig: 338, 378
+  offset: 0, 0
+  index: -1
+cape2
+  rotate: false
+  xy: 3, 281
+  size: 338, 378
+  orig: 338, 378
+  offset: 0, 0
+  index: -1
+cape3
+  rotate: false
+  xy: 344, 661
+  size: 338, 378
+  orig: 338, 378
+  offset: 0, 0
+  index: -1
+collar
+  rotate: true
+  xy: 1177, 232
+  size: 98, 59
+  orig: 98, 59
+  offset: 0, 0
+  index: -1
+eye brow
+  rotate: true
+  xy: 1144, 38
+  size: 41, 29
+  orig: 41, 29
+  offset: 0, 0
+  index: -1
+eye brow r
+  rotate: true
+  xy: 1001, 2
+  size: 57, 27
+  orig: 57, 27
+  offset: 0, 0
+  index: -1
+happy
+  rotate: true
+  xy: 1031, 8
+  size: 51, 40
+  orig: 51, 40
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 362, 19
+  size: 266, 303
+  orig: 266, 303
+  offset: 0, 0
+  index: -1
+head2
+  rotate: true
+  xy: 602, 295
+  size: 266, 303
+  orig: 266, 303
+  offset: 0, 0
+  index: -1
+headphone back
+  rotate: false
+  xy: 1074, 15
+  size: 26, 51
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+headphone front
+  rotate: false
+  xy: 1061, 68
+  size: 49, 69
+  orig: 49, 69
+  offset: 0, 0
+  index: -1
+knot
+  rotate: true
+  xy: 1097, 802
+  size: 237, 127
+  orig: 237, 127
+  offset: 0, 0
+  index: -1
+l hand new
+  rotate: true
+  xy: 1001, 61
+  size: 70, 57
+  orig: 70, 57
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: true
+  xy: 685, 820
+  size: 219, 409
+  orig: 219, 409
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 908, 339
+  size: 170, 222
+  orig: 170, 222
+  offset: 0, 0
+  index: -1
+left_eye
+  rotate: false
+  xy: 1103, 8
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+left_eyeball
+  rotate: true
+  xy: 1060, 802
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+left_foot
+  rotate: false
+  xy: 668, 4
+  size: 176, 82
+  orig: 176, 82
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: true
+  xy: 1070, 139
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+left_hand2
+  rotate: false
+  xy: 847, 29
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 1144, 81
+  size: 56, 26
+  orig: 56, 26
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: true
+  xy: 1174, 183
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 996, 175
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+r arm
+  rotate: false
+  xy: 668, 88
+  size: 226, 205
+  orig: 226, 205
+  offset: 0, 0
+  index: -1
+r arm1
+  rotate: true
+  xy: 1060, 579
+  size: 221, 172
+  orig: 221, 172
+  offset: 0, 0
+  index: -1
+r arm2
+  rotate: true
+  xy: 1070, 231
+  size: 99, 104
+  orig: 99, 104
+  offset: 0, 0
+  index: -1
+r hand new
+  rotate: true
+  xy: 602, 576
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: false
+  xy: 344, 287
+  size: 255, 372
+  orig: 255, 372
+  offset: 0, 0
+  index: -1
+right leg2
+  rotate: true
+  xy: 685, 563
+  size: 255, 372
+  orig: 255, 372
+  offset: 0, 0
+  index: -1
+right_eye
+  rotate: true
+  xy: 1174, 139
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+right_eyeball
+  rotate: false
+  xy: 1173, 110
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+right_foot
+  rotate: false
+  xy: 908, 240
+  size: 159, 97
+  orig: 159, 97
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 897, 128
+  size: 96, 110
+  orig: 96, 110
+  offset: 0, 0
+  index: -1
+right_hand2
+  rotate: true
+  xy: 996, 133
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+right_hand3
+  rotate: false
+  xy: 1113, 47
+  size: 28, 90
+  orig: 28, 90
+  offset: 0, 0
+  index: -1
+strobe
+  rotate: false
+  xy: 897, 25
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+thumb
+  rotate: false
+  xy: 847, 3
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 3, 17
+  size: 262, 356
+  orig: 262, 356
+  offset: 0, 0
+  index: -1
+yoyo
+  rotate: false
+  xy: 1081, 419
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+yoyo rope
+  rotate: false
+  xy: 1056, 133
+  size: 2, 40
+  orig: 2, 40
+  offset: 0, 0
+  index: -1
