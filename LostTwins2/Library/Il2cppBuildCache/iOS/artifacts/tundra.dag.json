@@ -19,59 +19,61 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"/Applications/Unity/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Newtonsoft.Json.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Data.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Numerics.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Xml.Linq.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/mscorlib.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/spine-unity-examples.dll",
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Temp/StagingArea/Data/Managed/spine-unity.dll"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Newtonsoft.Json.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Data.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Numerics.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Xml.Linq.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UNETModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/spine-unity-examples.dll",
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Temp/StagingArea/Data/Managed/spine-unity.dll"
       ],
       "Outputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -83,13 +85,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "cp \"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "cp \"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -103,13 +105,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "cp \"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "cp \"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/abdulsamadshahid/Documents/WRP/LostTwins2/Repository/LostTwins2/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/abdulsamadshahid/Documents/WRP/Samad313_RepoForCI/CI-Setup-Project/LostTwins2/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -125,7 +127,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../../../Library"
+      "File": "../../../../../../../../Library"
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"
