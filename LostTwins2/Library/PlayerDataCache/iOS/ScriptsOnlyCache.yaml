@@ -169,8 +169,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     spine-unity.dll:
     - Spine.Unity.SkeletonAnimation
     - Spine.Unity.SkeletonDataAsset
@@ -1390,7 +1388,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 129886}
+      Script: {instanceID: 104018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
