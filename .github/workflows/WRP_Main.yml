@@ -182,6 +182,9 @@ jobs:
         run: |
           echo "$APPSTORE_P8" > $APPSTORE_P8_PATH
           find $IOS_BUILD_PATH -type f -name "**.sh" -exec chmod +x {} \;
+          sudo chmod 755 $IOS_BUILD_PATH/MapFileParser.sh
+          sudo chmod 755 $IOS_BUILD_PATH/process_symbols.sh
+          
       - name: Cache Fastlane Dependencies
         uses: actions/cache@v2
         with:
