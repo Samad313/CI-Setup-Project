@@ -136,7 +136,7 @@ jobs:
 
       - uses: game-ci/unity-builder@v2
         with:
-            buildMethod: WRP.Editor.BuildCgs.BuildOptions
+            buildMethod: BuildLT2.BuildOptions
             projectPath: LostTwins2
             allowDirtyBuild: false
             unityVersion: 2020.3.13f1
