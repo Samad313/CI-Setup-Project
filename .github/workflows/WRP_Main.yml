@@ -46,7 +46,7 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           projectPath: LostTwins2
-          allowDirtyBuild: false
+          allowDirtyBuild: true
           unityVersion: 2020.3.13f1
           targetPlatform: StandaloneOSX
         env:
