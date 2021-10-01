@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEditor.Build.Reporting;
 
 
-internal static class BuildLT2
+internal class BuildLT2
 {
     private static readonly string Eol = Environment.NewLine;
 
