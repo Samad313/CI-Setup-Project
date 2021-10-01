@@ -138,7 +138,7 @@ jobs:
         with:
 #             buildMethod: BuildLT2.BuildOptions
             projectPath: LostTwins2
-            allowDirtyBuild: false
+            allowDirtyBuild: true
             unityVersion: 2020.3.13f1
             targetPlatform: iOS        
         env:
