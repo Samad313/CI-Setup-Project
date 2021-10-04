@@ -183,6 +183,8 @@ jobs:
         run: |
           echo "$APPSTORE_P8" > $APPSTORE_P8_PATH
           find $IOS_BUILD_PATH -type f -name "**.sh" -exec chmod +x {} \;
+          find $IOS_BUILD_PATH -type f -iname "usymtool" -exec chmod +x {} \;
+          find $IOS_BUILD_PATH -type f -iname "lzma" -exec chmod +x {} \;
           
       - name: Cache Fastlane Dependencies
         uses: actions/cache@v2
