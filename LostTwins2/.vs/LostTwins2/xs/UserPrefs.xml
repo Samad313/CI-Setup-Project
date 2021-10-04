@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{44E7E742-A7B2-07FE-4D85-0B902EEB57F3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BuildScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/AddFakeUploadTokenPostprocessor.cs">
     <Files>
       <File FileName="Assets/_Project/Scripts/Menu/PathManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/BuildScript.cs" Line="71" Column="57" />
+      <File FileName="Assets/Editor/BuildScript.cs" />
+      <File FileName="Assets/Editor/AddFakeUploadTokenPostprocessor.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
