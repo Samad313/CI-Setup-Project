@@ -140,7 +140,7 @@ jobs:
             buildMethod: BuildLT2.BuildOptions
             projectPath: LostTwins2
             allowDirtyBuild: true
-            unityVersion: 2020.3.14f1
+            unityVersion: 2020.3.13f1
             targetPlatform: iOS        
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
