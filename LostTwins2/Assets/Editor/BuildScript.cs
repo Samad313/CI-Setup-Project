@@ -67,7 +67,7 @@ internal class BuildLT2
                 break;
             case BuildTarget.iOS:
                 PlayerSettings.bundleVersion = "0.1";
-                PlayerSettings.iOS.buildNumber = "14";
+                PlayerSettings.iOS.buildNumber = "15";
                 break;
         }
 
